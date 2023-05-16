@@ -1,0 +1,477 @@
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: rgb(166, 231, 231);
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+.btn3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: orangered;
+  color: aliceblue;
+  letter-spacing: 3px;
+  width: 240px;
+  height: 120px;
+  font-size: 17px;
+  border: 1px solid rgb(158, 157, 157);
+  border-radius: 10px;
+
+  margin-top: 20px;
+  box-shadow: 2px 2px 4px 2px rgb(158, 157, 157);
+}
+.btn3:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+.partcipants {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 16px;
+  font-weight: 550;
+  color: rgb(32, 32, 32);
+
+  margin-top: 25px;
+}
+
+/*  NAV BAR  */
+
+.nav_bar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 100%;
+  height: 7rem;
+
+  padding: 15px;
+  background-color: rgb(166, 231, 231);
+}
+.nav_bar span {
+  margin-right: 20px;
+}
+.nav_bar img {
+  height: 9rem;
+  width: 10rem;
+}
+
+.border_top {
+  margin-left: 10px;
+  margin-right: 10px;
+  max-width: 100%;
+  height: 1px;
+  background: hsl(240, 100%, 5%);
+  margin-bottom: 20px;
+}
+
+/*  section 02  */
+
+.section2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  width: 80%;
+}
+
+.section2_1_img {
+  height: 300px;
+  width: 100%;
+  border-radius: 8px;
+  object-fit: cover;
+}
+.introduction_part {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.section2_part2 {
+  padding: 20px;
+}
+.section2_part2 h1 {
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-weight: 700;
+  color: hsl(240, 100%, 5%);
+  margin-bottom: 15px;
+  text-align: center;
+}
+.introduction_part {
+  font-size: 15px;
+  font-family: "Be Vietnam Pro", sans-serif;
+  word-spacing: 8px;
+}
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: orangered;
+  color: aliceblue;
+  letter-spacing: 3px;
+  width: 180px;
+  height: 60px;
+  font-size: 17px;
+  border: 1px solid rgb(158, 157, 157);
+
+  margin-top: 20px;
+  box-shadow: 2px 2px 2px 1px rgb(158, 157, 157);
+}
+.btn:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.noms {
+  color: hsl(36, 100%, 99%);
+  font-family: "Be Vietnam Pro", sans-serif;
+  padding: 20px;
+  text-align: justify;
+  background-color: hsl(240, 100%, 5%);
+  max-width: 100%;
+  height: 100%;
+  margin-top: 30px;
+  border-radius: 5px;
+}
+.noms h1 {
+  margin-bottom: 20px;
+  color: hsl(35, 77%, 62%);
+}
+.noms h3 {
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.bin {
+  border-bottom: 1px solid hsl(233, 8%, 79%);
+  margin-bottom: 20px;
+}
+
+.section3 {
+  padding: 10px;
+}
+
+.section3_part {
+  display: flex;
+  flex-direction: row;
+
+  max-width: 100%;
+  margin-top: 40px;
+}
+.section3_part img {
+  border-radius: 3px;
+  max-width: 50%;
+  max-height: 100%;
+  margin-right: 20px;
+}
+.section3_text {
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-weight: 200;
+  text-align: justify;
+}
+.section3_text h1 {
+  color: hsl(236, 13%, 42%);
+}
+.all {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+.slider {
+  display: none;
+}
+.btn2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: orangered;
+  color: aliceblue;
+  letter-spacing: 3px;
+  width: 180px;
+  height: 60px;
+  font-size: 17px;
+  border: 1px solid rgb(158, 157, 157);
+
+  margin-top: 20px;
+  box-shadow: 2px 2px 2px 1px rgb(158, 157, 157);
+}
+.btn2:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+@media only screen and (min-width: 768px) {
+  .all {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .partcipants {
+    font-size: 25px;
+  }
+  .nav_bar {
+    width: 80%;
+  }
+
+  .section2 {
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding-right: 10rem;
+    padding-left: 10rem;
+    height: 100%;
+    width: 80%;
+  }
+  .noms {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 60%;
+    height: 100%;
+    margin-left: 30px;
+  }
+  .section2_1_img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+  .section3 {
+    display: none;
+  }
+
+  body {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+  .introduction_part {
+    position: relative;
+  }
+
+  .btn {
+    margin-top: 50px;
+  }
+
+  .slider {
+    display: block;
+    position: relative;
+    width: 80%;
+    height: 350px;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12),
+      0 3px 1px -2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    background-color: rgb(206, 232, 251);
+    border: 1px solid rgb(166, 231, 231);
+    border-radius: 30px;
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-weight: 700;
+    margin-bottom: 40px;
+  }
+
+  .slider-controls {
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    width: 250px;
+    text-align: center;
+    transform: translatex(-50%);
+    z-index: 1000;
+    list-style: none;
+    text-align: center;
+  }
+  .slider-controls label {
+    margin-right: 20px;
+  }
+  .slider input[type="radio"] {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+
+  .slider-controls label {
+    display: inline-block;
+    border: none;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: #212121;
+    transition: background-color 0.2s linear;
+  }
+
+  #btn-1:checked ~ .slider-controls label[for="btn-1"] {
+    background-color: #ff4081;
+  }
+
+  #btn-2:checked ~ .slider-controls label[for="btn-2"] {
+    background-color: #ff4081;
+  }
+
+  #btn-3:checked ~ .slider-controls label[for="btn-3"] {
+    background-color: #ff4081;
+  }
+  #btn-4:checked ~ .slider-controls label[for="btn-4"] {
+    background-color: #ff4081;
+  }
+  #btn-5:checked ~ .slider-controls label[for="btn-5"] {
+    background-color: #ff4081;
+  }
+
+  /* SLIDES */
+
+  .slides {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    max-width: 80%;
+  }
+
+  .slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+    height: 100%;
+
+    opacity: 0;
+    transform: translatex(-100%);
+    transition: transform 250ms linear;
+  }
+
+  .slide-content {
+    width: 50%;
+    margin-bottom: 50px;
+  }
+
+  .slide-title {
+    margin-bottom: 15px;
+    font-size: 36px;
+  }
+
+  .slide-text {
+    margin-bottom: 15px;
+  }
+
+  .slide-link {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #fff;
+    border-radius: 3px;
+    text-decoration: none;
+    background-color: #ff4081;
+  }
+
+  .slide-image img {
+    max-width: 100%;
+    margin-right: 0px;
+  }
+  .slide-image {
+    margin-right: 3rem;
+  }
+
+  /* Slide animations */
+  #btn-1:checked ~ .slides .slide:nth-child(1) {
+    transform: translatex(0);
+    opacity: 1;
+  }
+
+  #btn-2:checked ~ .slides .slide:nth-child(2) {
+    transform: translatex(0);
+    opacity: 1;
+  }
+
+  #btn-3:checked ~ .slides .slide:nth-child(3) {
+    transform: translatex(0);
+    opacity: 1;
+  }
+  #btn-4:checked ~ .slides .slide:nth-child(4) {
+    transform: translatex(0);
+    opacity: 1;
+  }
+  #btn-5:checked ~ .slides .slide:nth-child(5) {
+    transform: translatex(0);
+    opacity: 1;
+  }
+  #btn-1:not(:checked) ~ .slides .slide:nth-child(1) {
+    animation-name: swap-out;
+    animation-duration: 300ms;
+    animation-timing-function: linear;
+  }
+
+  #btn-2:not(:checked) ~ .slides .slide:nth-child(2) {
+    animation-name: swap-out;
+    animation-duration: 300ms;
+    animation-timing-function: linear;
+  }
+
+  #btn-3:not(:checked) ~ .slides .slide:nth-child(3) {
+    animation-name: swap-out;
+    animation-duration: 300ms;
+    animation-timing-function: linear;
+  }
+  #btn-4:not(:checked) ~ .slides .slide:nth-child(4) {
+    animation-name: swap-out;
+    animation-duration: 300ms;
+    animation-timing-function: linear;
+  }
+  #btn-5:not(:checked) ~ .slides .slide:nth-child(5) {
+    animation-name: swap-out;
+    animation-duration: 300ms;
+    animation-timing-function: linear;
+  }
+  .animate-slide {
+    animation-name: swap-out;
+    animation-duration: 300ms;
+    animation-timing-function: linear;
+  }
+
+  @keyframes swap-out {
+    0% {
+      transform: translatex(0);
+      opacity: 1;
+    }
+
+    50% {
+      transform: translatex(50%);
+      opacity: 0;
+    }
+
+    100% {
+      transform: translatex(100%);
+    }
+  }
+
+  .btn2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: orangered;
+    color: aliceblue;
+    letter-spacing: 3px;
+    width: 180px;
+    height: 60px;
+    font-size: 17px;
+    border: 1px solid rgb(158, 157, 157);
+
+    margin-top: 20px;
+    box-shadow: 2px 2px 2px 1px rgb(158, 157, 157);
+  }
+  .btn2:hover {
+    cursor: pointer;
+    opacity: 0.8;
+  }
+}

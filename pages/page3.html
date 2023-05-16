@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+      integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+      crossorigin="anonymous"
+    />
+    <title>Chapitre 3: Le Modéle OSI</title>
+  </head>
+
+  <body>
+    <header>
+      <!-- nav bar -->
+
+      <div class="banner">
+        <div class="container">
+          <h1 class="banner-title">Chapitre 3: Le Modèle OSI</h1>
+          <p>Les Composants matériel d’un Réseau informatique</p>
+        </div>
+      </div>
+    </header>
+
+    <div class="section1">
+      <!-- une div avec titre et écriture à répéter -->
+      <div class="writing">
+        <div class="write-title">
+          <h2>1) Les Composants matériel d’un Réseau informatique :</h2>
+        </div>
+        <ul>
+          <li>
+            Les cartes réseau : les cartes réseau sont des composants matériels
+            indispensables pour permettre à un ordinateur de se connecter à un
+            réseau. Elles facilitent la transmission et la réception de données
+            en utilisant des protocoles de communication spécifiques, tels que
+            TCP/IP.
+          </li>
+          <li>
+            Switch: un switch est un matériel qui permet de connecter des
+            appareils sur un réseau local (LAN) en utilisant des adresses MAC.
+            Il stocke ces adresses dans une table de correspondance pour envoyer
+            les données uniquement à l'appareil destinataire plutôt que de les
+            diffuser à tous les appareils du réseau. Les switches sont
+            disponibles en différentes tailles et peuvent offrir des
+            fonctionnalités avancées telles que la gestion des VLAN, la qualité
+            de service (QoS) et la gestion du trafic.
+          </li>
+          <li>
+            Hub : Le hub est un composant matériel qui permet de connecter
+            plusieurs appareils sur un réseau local. Contrairement à un switch,
+            il fonctionne comme un répéteur et transmet les données à tous les
+            autres appareils connectés, sans utiliser une table de
+            correspondance pour envoyer les données uniquement à l'appareil
+            destinataire. Les hubs ont été largement remplacés par des switches
+            plus performants pour la gestion du trafic réseau, mais ils sont
+            encore utilisés dans des réseaux de petite taille où la complexité
+            d'un switch n'est pas nécessaire.
+          </li>
+        </ul>
+      </div>
+      <div class="writing">
+        <div class="write-title">
+          <h2>2) Le Modèle OSI :</h2>
+        </div>
+        <p>
+          Le modèle OSI (Open Systems Interconnection) est un modèle de
+          référence pour les communications de réseau, divisé en sept couches
+          distinctes. Chaque cou
+        </p>
+
+        <p>
+          Chaque couche a des fonctions spécifiques liées à la communication de
+          données entre les appareils de réseau. Les sept couches sont :
+        </p>
+        <ul>
+          <li>La couche physique</li>
+          <li>La couche liaison de données</li>
+          <li>La couche réseau</li>
+          <li>La couche transport</li>
+          <li>La couche session</li>
+          <li>La couche présentation</li>
+          <li>La couche application</li>
+        </ul>
+        <p>
+          Bien que ce modèle ne soit pas utilisé dans les protocoles de
+          communication de réseau modernes tels que TCP/IP, il reste utile pour
+          comprendre les principes fondamentaux de la communication de réseau.
+        </p>
+      </div>
+      <div class="writing">
+        <div class="write-title">
+          <h2>3) Le Modèle TCP/IP :</h2>
+        </div>
+        <p>
+          Le modèle TCP/IP est un modèle de référence pour les communications de
+          réseau utilisé pour la conception et la mise en œuvre des réseaux
+          informatiques modernes. Il divise les communications en quatre couches
+          principales : la couche de liaison de données qui est responsable de
+          la transmission des données sur le support physique, la couche réseau
+          qui est responsable du routage des données, la couche transport qui
+          est responsable de l'acheminement des données de bout en bout, et la
+          couche application qui est responsable de la communication entre les
+          applications. Il est utilisé pour la conception et la mise en œuvre
+          des réseaux d'entreprise, des réseaux Internet et des réseaux sans
+          fil, et est le modèle de référence pour les protocoles de
+          communication de réseau les plus largement utilisés.
+        </p>
+      </div>
+      <div class="writing">
+        <div class="write-title">
+          <h2>4) L'adressage :</h2>
+        </div>
+        <p>
+          L'adressage dans les réseaux permet d'identifier de manière unique les
+          deux unités en communication, en utilisant une adresse IP (Internet
+          Protocol) qui est un numéro identifiant chaque ordinateur dans le
+          réseau. Il existe deux modes d'adressage : IPV4 qui utilise des
+          adresses de 32 bits et IPV6 qui utilise des adresses de 128 bits.
+          L'adresse IPV4 est exprimée en décimale en séparant quatre chiffres
+          par un point, tandis que l'adresse IPV6 est représentée en découpant
+          le mot de 128 bits en 8 mots de 16 bits séparés par le caractère «:»,
+          chacun en hexadécimal.
+        </p>
+      </div>
+      <div class="writing">
+        <div class="write-title">
+          <h2>5) L'adresse IPV4 :</h2>
+        </div>
+        <p>
+          L'adresse IPV4 est une adresse utilisée pour identifier les
+          ordinateurs sur un réseau local. Elle est composée de 4 octets, qui
+          contiennent deux parties distinctes : l'adresse réseau et l'adresse
+          hôte. La valeur des bits de la partie réseau est identique pour tous
+          les ordinateurs d'un même réseau, tandis que la partie hôte varie. Le
+          nombre de bits contenus dans la partie hôte détermine le nombre de
+          machines possibles sur ce réseau. Les adresses IPV4 sont divisées en
+          trois types : l'adresse réseau, l'adresse de diffusion et l'adresse
+          hôte. Le masque de réseau et de sous-réseau est également utilisé pour
+          identifier les réseaux et les sous-réseaux. Les adresses IPV4 sont
+          exprimées en notation décimale, en convertissant chaque octet en
+          décimal.
+        </p>
+      </div>
+    </div>
+  </body>
+</html>

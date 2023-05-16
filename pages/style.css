@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700;800;900&family=Quicksand:wght@300;400;500;600;700&display=swap");
+
+:root {
+  --Playfair: "Playfair Display", serif;
+  --Quicksand: "Quicksand", sans-serif;
+  --Roboto: "Roboto", sans-serif;
+  --dark: #3c393d;
+  --exDark: #2b2b2b;
+}
+* {
+  padding: 0;
+  margin: 0;
+  font-family: var(--Quicksand);
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+body {
+  line-height: 1.4;
+  color: #282629;
+}
+img {
+  width: 100%;
+  display: block;
+}
+.container {
+  max-width: 1320px;
+  margin: 0 auto;
+  padding: 0 1.2rem;
+}
+header {
+  /*change colors*/
+  min-height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(/images/image-web-3-mobile.jpg) center/cover no-repeat fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+}
+.banner {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: hsl(36, 100%, 99%);
+}
+.banner-title {
+  font-size: 3rem;
+  font-family: "Be Vietnam Pro", sans-serif;
+  line-height: 1.2;
+  color: hsl(36, 100%, 99%);
+}
+
+.banner p {
+  padding: 1rem 0 2rem 0;
+  font-size: 1.2rem;
+  text-transform: capitalize;
+  font-family: var(--Roboto);
+  font-weight: 300;
+  word-spacing: 2px;
+}
+.section1 {
+  padding: 2.5rem 1.5rem 3rem 1.5rem;
+}
+.write-title {
+  text-align: justify;
+  padding: 1.3rem 0.5rem;
+  font-family: var(--Playfair);
+  font-size: 1.1rem;
+  color: hsl(240, 100%, 5%);
+}
+
+.writing p {
+  font-weight: 400;
+  display: block;
+  padding-bottom: 0.5rem;
+  font-family: var(--Roboto);
+  color: hsl(240, 92%, 5%);
+}
